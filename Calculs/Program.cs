@@ -17,7 +17,6 @@ namespace Calculs
             int solution; // calcul de la solution
             int reponse; // saisie de la réponse de l'utilisateur
             int choix; // saisie du choix de l'utilsiateur
-
             // boucle sur le menu
             choix = 1;
             while (choix != 0)
@@ -31,6 +30,7 @@ namespace Calculs
                 // traitement des choix
                 if (choix != 0)
                 {
+                    //les variables ont étés déplacés ici
                     val1 = rand.Next(1, 10);
                     val2 = rand.Next(1, 10);
 
